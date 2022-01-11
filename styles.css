@@ -84,9 +84,13 @@ header a {
 
 .images-of-pets {
   list-style: none;
+  /*
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  */
+  display: grid;
+  grid-template-columns: 1.5fr 1.5fr;
   padding-bottom: 4rem;
 }
 
@@ -149,6 +153,7 @@ footer img {
 
   .images-of-pets {
     justify-content: space-between;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 
   .images-of-pets img {
