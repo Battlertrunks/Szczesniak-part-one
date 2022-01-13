@@ -44,7 +44,7 @@ header a {
 }
 
 .donation-link {
-  background: black;
+  background: #1f211c;
   padding: 0.5rem;
   border-radius: 7px;
   font-size: 10px;
@@ -70,7 +70,7 @@ header a {
   margin: 0.5rem 0;
   padding: 0 1rem;
   border-radius: 10px;
-  border: 2px black solid;
+  border: 2px #1f211c solid;
   background-color: #70a48b;
   text-align: left;
   color: #fff;
